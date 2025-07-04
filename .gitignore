@@ -1,0 +1,93 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env/
+venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+dist/
+build/
+
+# VSCode
+.vscode/
+
+# Airflow
+airflow.cfg
+airflow.db
+logs/
+*.log
+unittests.cfg
+*.pid
+
+# Docker
+*.log
+*.pid
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# Environment files
+.env
+.env.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# MinIO
+# Giữ nguyên, thường không có file cần ignore
+
+# MySQL
+# Giữ lại file .sql nên không ignore *.sql
+
+# PostgreSQL
+# Giữ lại file .sql nên không ignore *.sql và *.backup
+
+# Pytest cache
+.pytest_cache/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+# Bỏ *.py[cod] ở trên để giữ file .py
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Misc
+*.swp
+*~
+.project
+.idea/

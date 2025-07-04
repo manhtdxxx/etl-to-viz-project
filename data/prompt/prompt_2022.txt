@@ -1,0 +1,84 @@
+INSERT INTO `accounting_account` (acc_id, code, ...) VALUES ('111A',111,'Tiền mặt','debit','Tiền và các khoản tương đương tiền','Tài sản ngắn hạn',1),('112A',112,'Tiền gửi ngân hàng','debit','Tiền và các khoản tương đương tiền','Tài sản ngắn hạn',1),('121A',121,'Chứng khoán kinh doanh','debit','Đầu tư tài chính','Tài sản ngắn hạn',1),('121B',121,'Chứng khoán kinh doanh','debit','Đầu tư tài chính','Tài sản dài hạn',1),('131A',131,'Phải thu khách hàng','debit','Các khoản phải thu','Tài sản ngắn hạn',1),('131B',131,'Phải thu khách hàng','debit','Các khoản phải thu','Tài sản dài hạn',1),('133A',133,'Thuế GTGT được khấu trừ','debit','TSNH khác','Tài sản ngắn hạn',1),('138A',138,'Phải thu khác','debit','Các khoản phải thu','Tài sản ngắn hạn',1),('138B',138,'Phải thu khác','debit','Các khoản phải thu','Tài sản dài hạn',1),('152A',152,'Nguyên liệu, vật liệu','debit','Hàng tồn kho','Tài sản ngắn hạn',1),('153A',153,'Công cụ, dụng cụ','debit','Hàng tồn kho','Tài sản ngắn hạn',1),('154A',154,'Chi phí sản xuất, kinh doanh dở dang','debit','Hàng tồn kho','Tài sản ngắn hạn',1),('155A',155,'Thành phẩm','debit','Hàng tồn kho','Tài sản ngắn hạn',1),('211B',211,'TSCĐ hữu hình','debit','TSCĐ','Tài sản dài hạn',1),('214B',214,'Hao mòn TSCĐ','credit','TSCĐ','Tài sản dài hạn',2),('331A',331,'Phải trả người bán','credit','Nợ','Nợ ngắn hạn',2),('331B',331,'Phải trả người bán','credit','Nợ','Nợ dài hạn',2),('333A',333,'Thuế và các khoản phải nộp nhà nước','credit','Nợ','Nợ ngắn hạn',2),('334A',334,'Phải trả người lao động','credit','Nợ','Nợ ngắn hạn',2),('338A',338,'Phải trả, phải nộp khác','credit','Nợ','Nợ ngắn hạn',2),('338B',338,'Phải trả, phải nộp khác','credit','Nợ','Nợ dài hạn',2),('341A',341,'Vay và nợ thuê tài chính','credit','Nợ','Nợ ngắn hạn',2),('341B',341,'Vay và nợ thuê tài chính','credit','Nợ','Nợ dài hạn',2),('411A',411,'Vốn góp chủ sở hữu','credit','Vốn chủ sở hữu','Vốn góp chủ sỡ hữu',3),('421B',421,'Lợi nhuận sau thuế chưa phân phối','credit','Vốn chủ sở hữu','Lợi nhuận sau thuế',3),('A511',511,'Doanh thu từ hoạt động bán hàng và cung cấp dịch vụ','credit','Doanh thu','Doanh thu từ hoạt động kinh doanh',4),('A521',521,'Các khoản giảm trừ doanh thu','debit','Doanh thu','Doanh thu từ hoạt động kinh doanh',4),('A621',621,'Chi phí nguyên liệu, vật liệu trực tiếp','debit','Chi phí','Chi phí sản xuất kinh doanh trong kỳ',5),('A622',622,'Chi phí nhân công trực tiếp','debit','Chi phí','Chi phí sản xuất kinh doanh trong kỳ',5),('A627',627,'Chi phí sản xuất chung','debit','Chi phí','Chi phí sản xuất kinh doanh trong kỳ',5),('A632',632,'Giá vốn hàng bán','debit','Chi phí','Chi phí từ hoạt động kinh doanh',5),('A641',641,'Chi phí bán hàng','debit','Chi phí','Chi phí từ hoạt động kinh doanh',5),('A642',642,'Chi phí quản lý doanh nghiệp','debit','Chi phí','Chi phí từ hoạt động kinh doanh',5),('B515',515,'Doanh thu hoạt động tài chính','credit','Doanh thu','Doanh thu từ hoạt động tài chính',4),('B635',635,'Chi phí tài chính','debit','Chi phí','Chi phí từ hoạt động tài chính',5),('C711',711,'Thu nhập khác','credit','Doanh thu','Thu nhập khác',4),('C811',811,'Chi phí khác','debit','Chi phí','Chi phí khác',5),('C821',821,'Chi phí thuế TNDN','debit','Chi phí','Chi phí khác',5),('D911',911,'Xác định KQHĐKD',NULL,'Xác định KQHĐKD','Xác định KQHĐKD',NULL);
+
+INSERT INTO `general_journal` VALUES (1,'Sổ bán hàng','Ghi lại tất cả các giao dịch bán hàng của doanh nghiệp'),(2,'Sổ mua hàng','Theo dõi tất cả các giao dịch mua hàng của doanh nghiệp'),(3,'Sổ thu tiền mặt','Ghi nhận tất cả các khoản thu tiền mặt vào doanh nghiệp'),(4,'Sổ chi tiền mặt','Theo dõi tất cả các khoản chi tiền mặt của doanh nghiệp'),(5,'Sổ cái chung','Bao gồm các giao dịch khác không được phân loại vào các sổ khác, thường là giao dịch tổng hợp'),(6,'Sổ phải thu','Ghi lại tất cả các giao dịch phải thu của doanh nghiệp từ khách hàng'),(7,'Sổ phải trả','Theo dõi tất cả các giao dịch phải trả của doanh nghiệp cho nhà cung cấp'),(8,'Sổ thuế','Ghi lại các giao dịch và khoản thuế phải nộp của doanh nghiệp'),(9,'Sổ vay nợ','Theo dõi tất cả các giao dịch vay nợ, bao gồm trả nợ gốc và lãi suất');
+
+CREATE TABLE `journal_entry` (
+  `entry_id` int NOT NULL,
+  `trans_id` int DEFAULT NULL,
+  `acc_id` int DEFAULT NULL,
+  `debit_amount` int DEFAULT NULL,
+  `credit_amount` int DEFAULT NULL,
+  PRIMARY KEY (`entry_id`),
+  KEY `fk_entry_trans_idx` (`trans_id`),
+  KEY `fk_entry_acc_idx` (`acc_id`),
+  CONSTRAINT `fk_entry_acc` FOREIGN KEY (`acc_id`) REFERENCES `accounting_account` (`acc_id`),
+  CONSTRAINT `fk_entry_trans` FOREIGN KEY (`trans_id`) REFERENCES `journal_transaction` (`trans_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `journal_transaction` (
+  `trans_id` int NOT NULL,
+  `trans_date` date DEFAULT NULL,
+  `description` varchar(512) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci DEFAULT NULL,
+  `journal_id` int DEFAULT NULL,
+  `period_id` int DEFAULT NULL,
+  `supplier_id` int DEFAULT NULL,
+  `customer_id` int DEFAULT NULL,
+  PRIMARY KEY (`trans_id`),
+  KEY `fk_trans_journal_idx` (`journal_id`),
+  KEY `fk_trans_accperiod_idx` (`period_id`),
+  KEY `fk_trans_customer_idx` (`customer_id`),
+  KEY `fk_trans_supplier_idx` (`supplier_id`),
+  CONSTRAINT `fk_trans_customer` FOREIGN KEY (`customer_id`) REFERENCES `customer` (`customer_id`),
+  CONSTRAINT `fk_trans_journal` FOREIGN KEY (`journal_id`) REFERENCES `general_journal` (`journal_id`),
+  CONSTRAINT `fk_trans_period` FOREIGN KEY (`period_id`) REFERENCES `accounting_period` (`period_id`),
+  CONSTRAINT `fk_trans_supplier` FOREIGN KEY (`supplier_id`) REFERENCES `supplier` (`supplier_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+Yêu cầu:
+Nhập sql điền dữ liệu cho bảng transaction, entry cho một doanh nghiệp sản xuất hàng tiêu dùng trong tháng ..(mm)/2022(yyyy).
+(Trong đó: customer_id , supplier_id điền bừa từ 1 - 20, period_id là (1 nếu năm 2022, 2 nếu năm 2023, 3 nếu năm 2024), và trans_id đi từ yymm000 - 6 số thôi nhé, entry_id đi từ yymm000 - 6 số thôi nhé, acc_id nếu là doanh thu và chi phí thì xuất phát từ chữ A,B,C thay vì là số VD A621, A622, A627)
+(NHỚ DÙNG COMMIT, ROLLBACK, KHÔNG DÙNG SET VARIABLE ĐÂU NHÉ, KHÔNG ĐƯỢC PHÉP TÍNH SAI, HẠCH TOÁN NỢ CÓ NHƯ NÀO TÔI HƯỚNG DẪN RỒI, LÀM ĐÚNG Y NHƯ VẬY)
+
+**CHÚ Ý**: PHẢI CÓ ĐỦ CÁC HOẠT ĐỘNG SAU ĐÂY, VÀ MỖI HOẠT ĐỘNG XẢY RA 1 LẦN THÔI NHÉ:
+***Hoạt động huy động vốn và đầu tư TSCĐ chỉ trong tháng 1:***
+- Nhận vốn góp chủ sở hữu 1.200 triệu (Có TK 411 và Nợ TK 111, 112)
+- Vay ngắn hạn ngân hàng 700 triệu (Có TK 341A và Nợ TK 111, 112)
+- Vay dài hạn ngân hàng 500 triệu (Có TK 341B và Nợ TK 111, 112)
+- Đầu tư TSCĐ là 1.500 triệu (Nợ TK 211 và Có TK 111, 112) 
+--> vốn còn lại sẽ dùng cho các hoạt động dưới đây
+
+***Hoạt động sản xuất kinh doanh:***
+- Hoạt động mua sắm: mua nguyên vật liệu, công cụ dụng cụ (Nợ TK 152, 153) bằng tiền (Có TK 111 hoặc 112) hoặc nợ người bán (Có TK 331A hoặc 331B). Trong khi mua nhớ kèm thuế GTGT được khấu trừ Nợ TK 133. (*Note: tổng mua không quá 200 - 400tr)
+- Hoạt động sản xuất: xuất kho nguyên vật liệu, công cụ dụng cụ (Có TK 152, 153); trích khấu hao TSCĐ (Có TK 214); trả lương nhân viên (Có TK 334) ghi nhận chi phí sản xuất (Nợ TK 621, 622, 627) (*Note: xuất kho khoảng 80-90%, trích khấu hao 2 - 5% TSCĐ, trả lương nhân viên gấp 1.5 - 3x lần khấu hao TSCĐ)
+- Hoạt động nhập kho thành phẩm: Từ TK 621, 622, 627 đó kết chuyển HẾT vào Nợ TK 154 trong kỳ. Sau đó Có TK 154 kết chuyển sang Nợ TK 155
+- Hoạt động bán hàng ghi nhận giá vốn: bán hàng ghi nhận giá vốn trước doanh thu (Có TK 155 và Nợ TK 632) (bán được 80% - 90% từ TK 155)
+- Hoạt động bán hàng ghi nhận doanh thu: bán hàng ghi nhận doanh thu (Có TK 511), và giảm trừ doanh thu (Nợ TK 521), doanh thu có thể bằng tiền (Nợ TK 111 hoặc 112) hoặc khoản phải thu (131A hoặc 131B). Trong khi bán nhớ kèm thuế phải nộp Có TK 333 (*Note: doanh thu gấp khoảng 2 - 2.5 lần giá vốn)
+- Hoạt động bán hàng ghi nhận chi phí: bán hàng thi ghi nhận thêm chi phí bán hàng, chi phí quản lý doanh nghiệp (Nợ TK 641, 642) (*Note: chi phí bán hàng trong khoảng 12%-15% doanh thu, chi phí quản lý doanh nghiệp trong khoảng 12%-15% doanh thu)
+
+
+***Hoạt động tài chính:***
+- Hoạt động mua chứng khoán: đầu tư chứng khoán (Nợ TK 121A hoặc TK 121B) bằng tiền (Có TK 111 hoặc 112)
+- Hoạt động bán chứng khoán: bán chứng khoán (bán ít hơn mua nhé) (Có TK 121A hoặc 121B) nhận tiền (Nợ TK 111 hoặc 112). Nếu bán lãi thì ghi nhận thì ghi nhận Có TK 515, bán lỗ thì ghi nhận Nợ TK 635 
+- Hoạt động trả lãi vay ngân hàng (Có TK 111 hoặc TK 112 và Nợ TK 635) (*Note: 6% - 10% tổng nợ vay ngân hàng)
+- Hoạt động nhận lãi từ đầu tư chứng khoán hoặc gửi tiền ngân hàng (Nợ TK 111 hoặc TK 112 và Có TK 515) (nhận lãi cao hơn hoạt động trả lãi 1 xíu)
+
+***Hoạt động khác:***
+- Chi phí khác (phạt vi phạm hợp đồng, tổn thất tài sản): Nợ TK 811 và Có TK 111 hoặc 112
+- Thu nhập khác (bán TSCĐ tầm 2-3% TSCĐ đã mua thôi, khoản thu bất thường): Có TK 711 và Nợ TK 111 hoặc 112  (thu nhập khác cao hơn hoặc thấp hơn chi phí khác 1 xíu thôi)
+
+
+***Cuối tháng kết chuyển như sau:***
+* Kết chuyển HẾT chi phí (Có TK 632, 641, 642, 635, 811, 521) vào Nợ TK 911
+* Kết chuyển HẾT doanh thu (Nợ TK 511, 515, 711) vào Có TK 911
+- Tính lợi nhuận trước thuế sau đó tính thuế 20% và hạch toán (Có TK 333 và Nợ TK 821)
+* Kết chuyển HẾT thuế TNDN vào TK 911 (Có TK 821 và Nợ TK 911)
+* Tính lợi nhuận sau thuế và kết chuyển hết vào TK lợi nhuận sau thuế (Nợ TK 911 và Có TK 421)
+
+***Hoạt động thu chi tiền***
+- Hoạt động chi trả cổ tức tầm 20 - 40% lợi nhuận (Nợ TK 421 và Có TK 111 hoặc 112)
+- Hoạt động thu tiền khách hàng (Có TK 131A, 131B và Nợ TK 111 hoặc 112)  (75% - 85% khoản phải thu khách hàng) 
+- Hoạt động trả tiền người bán (Nợ TK 331A, 331B và Có TK 111 hoặc 112) (70% - 80% khoản phải trả người bán)
+- Hoạt động trả thuế TNDN (Nợ TK 333 và Có TK 111 hoặc 112) (90% - 95% trả thuế)
+- Hoạt động trả lương nhân viên (Nợ TK 334 và Có TK 111 hoặc 112) (80% - 90% khoản trả lương nhân viên)
+- Hoạt động trả nợ gốc vay ngắn hạn (Nợ TK 341A và Có TK 111 hoặc 112) (*Note: trả trong khoảng 8% - 16% nợ vay ngắn hạn)
+- Hoạt động trả nợ gốc vay dài hạn (Nợ TK 341B và Có TK 111 hoặc 112) (*Note: trả trong khoảng 3% - 8% nợ vay dài hạn)
