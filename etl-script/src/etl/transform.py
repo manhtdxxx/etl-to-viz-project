@@ -19,6 +19,7 @@ def _remove_cols_da(dim_account):
     dim_account.drop(cols_to_remove, axis=1, inplace=True)
     return dim_account
 
+
 def transform_dim_account(dim_account):
     dim_account = dim_account.copy()
     dim_account = _change_dtype_da(dim_account)
@@ -97,6 +98,7 @@ def _remove_cols_fe(fact_entry):
     cols_to_drop = ['debit_amount', 'credit_amount', 'account_code', 'type_name', 'is_closing_entry', 'sign']
     fact_entry.drop(cols_to_drop, axis=1, inplace=True)
     return fact_entry
+
 
 def transform_fact_entry(fact_entry, transformed_dim_account):
     fact_entry = fact_entry.copy()

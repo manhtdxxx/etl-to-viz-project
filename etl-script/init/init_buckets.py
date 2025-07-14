@@ -34,7 +34,7 @@ client = Minio(
 )
 
 
-buckets = ["storage-2022", "storage-2023", "storage-2024"]  # not allow for _
+buckets = ["bucket-2022", "bucket-2023", "bucket-2024"]  # not allow for _, so use -
 for bucket in buckets:
     try:
         if not client.bucket_exists(bucket_name=bucket):
