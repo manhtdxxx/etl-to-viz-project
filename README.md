@@ -30,7 +30,7 @@
   - Chi tiết các loại doanh thu, chi phí
 
 
-- **Bảng cân đối kế toán (Balance Sheet)**  
+- **Bảng cân đối kế toán (Balance Sheet)**
   Tổng hợp tài sản, nợ phải trả và vốn chủ sở hữu theo từng quý các năm.  
   Bao gồm:
   - Phân loại tài sản (ngắn hạn, dài hạn, cố định,...)
