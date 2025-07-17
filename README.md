@@ -24,10 +24,9 @@
 
 - **Báo cáo kết quả kinh doanh (Income Statement)**  
   - Theo dõi doanh thu, lợi nhuận gộp, chi phí, lãi ròng,... theo từng quý các năm.  
-  - Hiển thị trực quan các chỉ số:
-    - Doanh thu thuần
+  - Bao gồm:
     - Biên lợi nhuận gộp / hoạt động / ròng
-    - Chi tiết các loại doanh thu, chi phí
+    - Chi tiết % các loại doanh thu, chi phí
 
 
 - **Bảng cân đối kế toán (Balance Sheet)**
