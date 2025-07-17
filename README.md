@@ -34,7 +34,7 @@
   Tổng hợp tài sản, nợ phải trả và vốn chủ sở hữu theo từng quý các năm.  
   Bao gồm:
   - Phân loại tài sản (ngắn hạn, dài hạn, cố định,...)
-  - Cơ cấu nguồn vốn
+  - Cơ cấu nguồn vốn (nợ dài hạn/ngắn hạn, vốn chủ sở hữu, ...)
   - Theo dõi chi tiết các khoản phải thu, tồn kho, đầu tư, khấu hao,...
 
 - **Chỉ số tài chính (Financial Ratios)**
