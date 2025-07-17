@@ -41,6 +41,6 @@
   - Bao gồm:
     - Đánh giả khả năng sinh lời (ROE, ROA, ROCE)
     - Đòn bẩy tài chính (D/A, D/E)
-    - Hiệu suất sử dụng tài sản (Asset Turnover, Fixed Asset Turnover, Working Capital Turnover)
+    - Hiệu suất sử dụng tài sản (Asset Turnover, AR/AP/Inventory Turnover)
     - Khả năng thanh khoản (Current Ratio, Quick Ratio, Cash Ratio)
     - Khả năng trả nợ (Interest Coverage Ratio, Debt Service Coverage Ratio)
