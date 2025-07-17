@@ -1,8 +1,8 @@
-## 📝 Giới thiệu
+## 📝 Introduction
 Đây là một dự án xây dựng hệ thống ETL để phục vụ các báo cáo tài chính (Financial Statements).
 
 ---
-## 🧩 Thành phần:
+## 🧩 Components
 - **Cơ sở dữ liệu nguồn (MySQL)**  
   Là nơi lưu trữ dữ liệu kế toán gốc phát sinh hằng ngày: giao dịch, bút toán, tài khoản, khách hàng, nhà cung cấp,... Đây là dữ liệu thô, phục vụ cho hoạt động nghiệp vụ.
 
@@ -20,7 +20,7 @@
 ![Data Pipeline](pipeline.png)
 
 ---
-## 📊 Tổng quan Dashboard
+## 📊 Dashboard Overview
 
 - **Báo cáo kết quả kinh doanh (Income Statement)**  
   - Theo dõi doanh thu, lợi nhuận gộp, chi phí, lãi ròng,... theo từng quý các năm.  
