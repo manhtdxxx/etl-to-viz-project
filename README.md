@@ -1,4 +1,3 @@
-# etl-to-viz-project
 ## 📝 Giới thiệu
 Đây là một dự án xây dựng hệ thống ETL để phục vụ các báo cáo tài chính (Financial Statements).
 
