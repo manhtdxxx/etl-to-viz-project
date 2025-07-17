@@ -19,3 +19,30 @@
 ---
 ##  🔄  Data Pipeline
 ![Data Pipeline](pipeline.png)
+
+---
+## 📊 Tổng quan Dashboard
+
+- **Báo cáo kết quả kinh doanh (Income Statement)**  
+  Theo dõi doanh thu, lợi nhuận gộp, chi phí, lãi ròng,... theo từng quý các năm.  
+  Hiển thị trực quan các chỉ số:
+  - Doanh thu thuần
+  - Biên lợi nhuận gộp / hoạt động / ròng
+  - Chi tiết các loại doanh thu, chi phí
+
+
+- **Bảng cân đối kế toán (Balance Sheet)**  
+  Tổng hợp tài sản, nợ phải trả và vốn chủ sở hữu theo từng quý các năm.  
+  Bao gồm:
+  - Phân loại tài sản (ngắn hạn, dài hạn, cố định,...)
+  - Cơ cấu nguồn vốn
+  - Theo dõi chi tiết các khoản phải thu, tồn kho, đầu tư, khấu hao,...
+
+- **Chỉ số tài chính (Financial Ratios)**
+  Tính toán và biểu diễn các chỉ số theo từng quý các năm.
+  Bao gồm:
+  - Đánh giả khả năng sinh lời (ROE, ROA, ROCE)
+  - Đòn bẩy tài chính (D/A, D/E)
+  - Hiệu suất sử dụng tài sản (Asset Turnover, Fixed Asset Turnover, Working Capital Turnover)
+  - Khả năng thanh khoản (Current Ratio, Quick Ratio, Cash Ratio)
+  - Khả năng trả nợ (Interest Coverage Ratio, Debt Service Coverage Ratio)
