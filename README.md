@@ -1,7 +1,9 @@
 ## 📝 Introduction
-Đây là một dự án xây dựng hệ thống ETL để phục vụ các báo cáo tài chính (Financial Statements).
-
+- Đây là một dự án xây dựng hệ thống ETL để phục vụ các báo cáo tài chính (Financial Statements).
+- **Nguồn dữ liệu**: tự tạo
+  
 ---
+
 ## 🧩 Components
 - **Cơ sở dữ liệu nguồn (MySQL)**  
   Là nơi lưu trữ dữ liệu kế toán gốc phát sinh hằng ngày: giao dịch, bút toán, tài khoản, khách hàng, nhà cung cấp,... Đây là dữ liệu thô, phục vụ cho hoạt động nghiệp vụ.
@@ -16,10 +18,12 @@
   Là nơi lưu trữ dữ liệu đã xử lý và tổ chức lại theo cấu trúc phân tích (star schema). Dữ liệu tại đây được chuẩn hóa để phục vụ cho việc tạo báo cáo, dashboard trên Power BI.
   
 ---
+
 ##  🔄  Data Pipeline
 ![Data Pipeline](pipeline.png)
 
 ---
+
 ## 📊 Dashboard Overview
 
 - **Báo cáo kết quả kinh doanh (Income Statement)**  
