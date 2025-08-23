@@ -26,6 +26,8 @@
 
 ## 📊 Dashboard Overview
 
+> Preview images are available in the file `dashboard/preview.pdf`.
+
 - **Báo cáo kết quả kinh doanh (Income Statement)**  
   - Theo dõi doanh thu, lợi nhuận gộp, chi phí, lãi ròng,... theo từng quý các năm.  
   - Bao gồm:
