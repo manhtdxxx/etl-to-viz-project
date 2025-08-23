@@ -10,7 +10,6 @@
 
 - **Lưu trữ trung gian (MinIO - S3-compatible storage)**  
   Là nơi lưu tạm dữ liệu đã trích xuất từ MySQL, dưới dạng file (CSV, Parquet,...). Việc sử dụng MinIO giúp:
-  - Giảm tải trực tiếp lên MySQL khi xử lý nhiều dữ liệu.
   - Lưu lại bản sao dữ liệu mỗi lần ETL để kiểm tra hoặc khôi phục nếu cần.
   - Tách riêng giai đoạn trích xuất và xử lý, giúp pipeline linh hoạt hơn.
 
