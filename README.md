@@ -4,7 +4,10 @@
   
 ---
 
-## 🧩 Components
+##  🔄  Data Pipeline
+
+![Data Pipeline](pipeline.png)
+
 - **Cơ sở dữ liệu nguồn (MySQL)**  
   Là nơi lưu trữ dữ liệu kế toán gốc phát sinh hằng ngày: giao dịch, bút toán, tài khoản, khách hàng, nhà cung cấp,... Đây là dữ liệu thô, phục vụ cho hoạt động nghiệp vụ.
 
@@ -16,11 +19,6 @@
 - **Kho dữ liệu (PostgreSQL)**  
   Là nơi lưu trữ dữ liệu đã xử lý và tổ chức lại theo cấu trúc phân tích (star schema). Dữ liệu tại đây được chuẩn hóa để phục vụ cho việc tạo báo cáo, dashboard trên Power BI.
   
----
-
-##  🔄  Data Pipeline
-![Data Pipeline](pipeline.png)
-
 ---
 
 ## 📊 Dashboard Overview
